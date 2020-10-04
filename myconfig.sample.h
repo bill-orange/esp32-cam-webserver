@@ -23,10 +23,10 @@ const char* password = "my-password";
 
 // AccessPoint; uncomment to enable AP mode, 
 // otherwise we will attempt to connect to an existing network.
-// #define WIFI_AP_ENABLE
+#define WIFI_AP_ENABLE
 
 // AccessPoint; change the ip address (optional, default = 192.168.4.1)
-// #define AP_ADDRESS 192,168,4,1
+#define AP_ADDRESS 192,168,4,1
 
 // AccessPoint; Uncomment this to force the channel number, default = 1
 // #define AP_CHAN 1
@@ -51,8 +51,8 @@ const char* password = "my-password";
  *  Uncomment and edit as appropriate
  */
 
-// #define HTTP_PORT 80
-// #define STREAM_PORT 81
+#define HTTP_PORT 80
+#define STREAM_PORT 81
 
 /*
  * Camera Hardware Settings
